@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-/* 
-    * означава "всички елементи".
-    box-sizing: border-box казва:
-    когато зададем width/height, padding-ът да се брои вътре в този размер.
-*/
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,21 +9,6 @@ body {
     color: #262626;
 }
 
-/*
-    body е цялата видима страница.
-
-    margin: 0;
-    маха default разстоянието, което браузърът слага около страницата.
-
-    font-family:
-    задава шрифта на целия сайт.
-
-    background-color: #fafafa;
-    прави светлосив фон, подобен на Instagram.
-
-    color: #262626;
-    задава основния цвят на текста.
-*/
 
 .page {
     min-height: 100vh;
@@ -224,26 +203,3 @@ body {
         padding: 30px 25px 20px;
     }
 }
-/*
-    .page е главният контейнер.
-
-    min-height: 100vh;
-    казва: страницата да е поне висока колкото целия екран.
-
-    display: flex;
-    подрежда децата вътре хоризонтално.
-
-    justify-content: center;
-    центрира ги по хоризонтала.
-
-    align-items: center;
-    центрира ги по вертикала.
-
-    gap: 40px;
-    оставя 40px разстояние между телефона и login формата.
-
-    padding: 40px 20px;
-    оставя вътрешно разстояние:
-    40px горе/долу
-    20px ляво/дясно
-*/
